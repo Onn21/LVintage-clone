@@ -32,19 +32,19 @@ export default function Team() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group"
+              className="group cursor-pointer"
+              tabIndex={0}
             >
-              <div className="aspect-square bg-white/5 rounded-xl mb-6 overflow-hidden relative">
-                {/* Image Placeholder */}
+              <div className="relative aspect-[3/4] mb-6 overflow-hidden rounded-2xl bg-white/5 border border-white/10 group-hover:border-neon-purple/50 group-active:border-neon-purple/50 transition-colors duration-500">
                 <img 
                   src={member.image} 
                   alt={`Foto de ${member.name}`} 
-                  className="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity duration-500" 
+                  className="w-full h-full object-cover opacity-50 group-hover:opacity-90 group-active:opacity-90 transition-opacity duration-500" 
                 />
                 {/* Hover overlay */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-neon-purple/20 to-neon-magenta/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-500" />
               </div>
-              <h3 className="text-2xl font-bold group-hover:text-neon-purple transition-colors">{member.name}</h3>
+              <h3 className="text-2xl font-bold text-white group-hover:text-neon-purple group-active:text-neon-purple transition-colors">{member.name}</h3>
               <p className="text-white/60">{member.role}</p>
             </motion.div>
           ))}

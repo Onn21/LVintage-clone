@@ -6,7 +6,7 @@ export default function Footer() {
           <img 
             src="https://res.cloudinary.com/dk3laapco/image/upload/v1779949399/Dise%C3%B1o_sin_t%C3%ADtulo_26_llii05.webp" 
             alt="Leo Vintage Studio Logo" 
-            className="h-12 w-auto object-contain"
+            className="h-24 md:h-32 w-auto object-contain"
           />
         </div>
         
