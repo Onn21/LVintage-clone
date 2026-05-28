@@ -41,9 +41,10 @@ export default function Team() {
                   alt={`Foto de ${member.name}`} 
                   className="w-full h-full object-cover opacity-50 group-hover:opacity-90 transition-opacity duration-500" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-neon-yellow/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* Hover overlay */}
+                <div className="absolute inset-0 bg-gradient-to-tr from-neon-purple/20 to-neon-magenta/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
-              <h3 className="text-2xl font-bold group-hover:text-neon-yellow transition-colors">{member.name}</h3>
+              <h3 className="text-2xl font-bold group-hover:text-neon-purple transition-colors">{member.name}</h3>
               <p className="text-white/60">{member.role}</p>
             </motion.div>
           ))}

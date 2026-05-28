@@ -38,13 +38,13 @@ export default function Partners() {
             >
               {/* Animated Pixel Canvas Background */}
               <PixelCanvas 
-                colors={['#00FFFF', '#39FF14', '#FFFF00']} 
+                colors={['#A200FF', '#FF00FF', '#FFFF00', '#00FFFF']} 
                 gap={5} 
                 speed={35} 
                 isHovered={hoveredIndex === index}
               />
 
-              <span className="relative z-10 text-xl font-bold text-white/40 group-hover:text-white transition-colors duration-500 group-hover:drop-shadow-[0_0_10px_rgba(0,0,0,1)]">
+              <span className="relative z-10 text-xl font-bold text-white/80 md:text-white/40 group-hover:text-white transition-colors duration-500 drop-shadow-[0_0_10px_rgba(0,0,0,1)] md:drop-shadow-none md:group-hover:drop-shadow-[0_0_10px_rgba(0,0,0,1)]">
                 {partner}
               </span>
             </motion.div>

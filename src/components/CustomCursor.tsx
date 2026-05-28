@@ -33,27 +33,27 @@ const CustomCursor = ({
     
     const mouse = { x: -1000, y: -1000, prevX: -1000, prevY: -1000, active: false };
 
-    // Paleta Neón del proyecto: Cyan -> Verde -> Amarillo
+    // Paleta Neón Calavera: Púrpura -> Magenta -> Amarillo
     const getThermalColor = (t: number) => {
       let r, g, b;
       if (t < 0.33) {
-        // Cyan (#00FFFF)
+        // Black to Purple (#A200FF)
         const pct = t / 0.33;
-        r = 0 * pct;
-        g = 255 * pct;
+        r = 162 * pct;
+        g = 0;
         b = 255 * pct;
       } else if (t < 0.66) {
-        // Cyan to Green (#39FF14)
+        // Purple to Magenta (#FF00FF)
         const pct = (t - 0.33) / 0.33;
-        r = 0 * (1 - pct) + 57 * pct;
-        g = 255 * (1 - pct) + 255 * pct;
-        b = 255 * (1 - pct) + 20 * pct;
+        r = 162 * (1 - pct) + 255 * pct;
+        g = 0;
+        b = 255;
       } else {
-        // Green to Yellow (#FFFF00)
+        // Magenta to Yellow (#FFFF00)
         const pct = (t - 0.66) / 0.34;
-        r = 57 * (1 - pct) + 255 * pct;
-        g = 255 * (1 - pct) + 255 * pct;
-        b = 20 * (1 - pct) + 0 * pct;
+        r = 255;
+        g = 0 * (1 - pct) + 255 * pct;
+        b = 255 * (1 - pct) + 0 * pct;
       }
       return `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`;
     };

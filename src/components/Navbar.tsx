@@ -15,10 +15,10 @@ export default function Navbar() {
         Leo Vintage Studio
       </div>
       <div className="hidden md:flex gap-8 text-sm font-medium text-white/70">
-        <a href="#thesis" className="hover:text-neon-green transition-colors">{t('nav.thesis')}</a>
-        <a href="#partners" className="hover:text-neon-green transition-colors">{t('nav.partners')}</a>
-        <a href="#team" className="hover:text-neon-green transition-colors">{t('nav.team')}</a>
-        <a href="#careers" className="hover:text-neon-green transition-colors">{t('nav.careers')}</a>
+        <a href="#thesis" className="hover:text-neon-magenta transition-colors">{t('nav.thesis')}</a>
+        <a href="#partners" className="hover:text-neon-magenta transition-colors">{t('nav.partners')}</a>
+        <a href="#team" className="hover:text-neon-magenta transition-colors">{t('nav.team')}</a>
+        <a href="#careers" className="hover:text-neon-magenta transition-colors">{t('nav.careers')}</a>
       </div>
       <div className="flex items-center gap-2 md:gap-4 flex-shrink-0">
         <button 

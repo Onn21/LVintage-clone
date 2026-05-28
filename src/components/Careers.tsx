@@ -17,11 +17,11 @@ export default function Careers() {
           transition={{ duration: 0.8 }}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          className="bg-white/[0.02] border border-neon-green/20 rounded-3xl p-12 relative overflow-hidden group cursor-pointer"
+          className="bg-white/[0.02] border border-neon-purple/30 rounded-3xl p-12 relative overflow-hidden group cursor-pointer"
         >
           {/* Animated Pixel Canvas Background */}
           <PixelCanvas 
-            colors={['#00FFFF', '#39FF14', '#FFFF00']} 
+            colors={['#A200FF', '#FF00FF', '#FFFF00', '#00FFFF']} 
             gap={6} 
             speed={35} 
             isHovered={isHovered}
@@ -38,7 +38,7 @@ export default function Careers() {
             href="https://wa.me/525512191031?text=Hola,%20me%20interesa%20agendar%20una%20sesión%20en%20el%20estudio."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block relative z-10 px-8 py-4 bg-white text-black font-bold rounded-full hover:bg-neon-cyan hover:text-black transition-all duration-300 transform hover:scale-105"
+            className="inline-block relative z-10 px-8 py-4 bg-white text-black font-bold rounded-full hover:bg-neon-magenta hover:text-black transition-all duration-300 transform hover:scale-105"
           >
             {t('careers.button')}
           </a>

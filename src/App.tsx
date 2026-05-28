@@ -11,7 +11,7 @@ import { LanguageProvider } from './context/LanguageContext';
 function App() {
   return (
     <LanguageProvider>
-      <div className="relative bg-black min-h-screen text-white font-sans selection:bg-neon-pink selection:text-black">
+      <div className="relative bg-black min-h-screen text-white font-sans selection:bg-neon-magenta selection:text-black">
         <CustomCursor />
         <Navbar />
         <main>

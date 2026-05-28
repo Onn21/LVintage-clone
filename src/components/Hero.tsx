@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
 
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-green/10 blur-[120px] rounded-full pointer-events-none z-0" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neon-purple/20 blur-[120px] rounded-full pointer-events-none z-0" />
 
       <div className="max-w-7xl w-full mx-auto relative z-10 flex flex-col items-center text-center">
         <motion.div
@@ -30,7 +30,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 mb-8 text-sm text-white/80 backdrop-blur-md"
         >
-          <span className="w-2 h-2 rounded-full bg-neon-green animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-neon-magenta animate-pulse" />
           {t('hero.badge')}
         </motion.div>
         
@@ -41,7 +41,7 @@ export default function Hero() {
           className="text-6xl md:text-8xl lg:text-[10rem] font-display font-bold leading-[0.9] tracking-tighter mb-8 drop-shadow-2xl"
         >
           {t('hero.title1')} <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-green to-neon-yellow">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-magenta to-neon-yellow">
             {t('hero.title2')}
           </span>
         </motion.h1>

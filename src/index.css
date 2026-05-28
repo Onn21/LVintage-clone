@@ -2,9 +2,11 @@
 
 @theme {
   --color-neon-cyan: #00FFFF;
-  --color-neon-green: #39FF14;
+  --color-neon-magenta: #FF00FF;
+  --color-neon-purple: #A200FF;
   --color-neon-yellow: #FFFF00;
-  --color-dark-bg: #0a0a0a;
+  --color-neon-orange: #FF8800;
+  --color-dark-bg: #0b0914;
   
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
@@ -25,11 +27,11 @@ body {
 
 /* Custom Text Selection */
 ::selection {
-  background-color: var(--color-neon-green);
+  background-color: var(--color-neon-magenta);
   color: #000;
 }
 ::-moz-selection {
-  background-color: var(--color-neon-green);
+  background-color: var(--color-neon-magenta);
   color: #000;
 }
 
