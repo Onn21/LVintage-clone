@@ -1,6 +1,7 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
+import type { HTMLAttributes } from "react";
 
-interface ThermodynamicGridProps extends React.HTMLAttributes<HTMLDivElement> {
+interface ThermodynamicGridProps extends HTMLAttributes<HTMLDivElement> {
   resolution?: number;
   coolingFactor?: number;
 }
