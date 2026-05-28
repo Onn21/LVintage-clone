@@ -34,9 +34,14 @@ export default function Careers() {
             {t('careers.desc')}
           </p>
           
-          <button className="relative z-10 px-8 py-4 bg-white text-black font-bold rounded-full hover:bg-neon-cyan hover:text-black transition-all duration-300 transform hover:scale-105">
+          <a 
+            href="https://wa.me/525512191031?text=Hola,%20me%20interesa%20agendar%20una%20sesión%20en%20el%20estudio."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block relative z-10 px-8 py-4 bg-white text-black font-bold rounded-full hover:bg-neon-cyan hover:text-black transition-all duration-300 transform hover:scale-105"
+          >
             {t('careers.button')}
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
