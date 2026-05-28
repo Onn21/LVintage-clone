@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #00FFFF;
+  --color-neon-green: #39FF14;
+  --color-neon-yellow: #FFFF00;
+  --color-dark-bg: #0a0a0a;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  /* cursor: none; /* Descomentar cuando el cursor custom esté listo */
+}
+
+/* Custom Text Selection */
+::selection {
+  background-color: var(--color-neon-green);
+  color: #000;
+}
+::-moz-selection {
+  background-color: var(--color-neon-green);
+  color: #000;
+}
+
+/* Scrollbar Minimalist */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Dot Matrix effect utility classes if needed */
+.dot-matrix-text {
+  background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+  background-size: 3px 3px;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
