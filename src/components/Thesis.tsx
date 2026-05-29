@@ -44,7 +44,7 @@ export default function Thesis() {
             className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-white/5 border border-white/10"
           >
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1516280440502-39c8eb0008fa?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-80" />
+            <div className="absolute inset-0 bg-[url('https://res.cloudinary.com/dk3laapco/image/upload/v1780025520/Reinterpretacion_profesional_de___202605282131_s7sknt.webp')] bg-cover bg-center transition-transform duration-700 group-hover:scale-105 opacity-80" />
             <div className="absolute bottom-8 left-8 z-20">
               <h3 className="text-2xl font-bold mb-2">{t('thesis.layer2.title')}</h3>
               <p className="text-white/60">{t('thesis.layer2.desc')}</p>

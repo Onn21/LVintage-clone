@@ -8,9 +8,9 @@ export default function Team() {
 
   const teamMembers = [
     { name: "Leo V.", role: t('team.role.gp'), image: "https://res.cloudinary.com/dk3laapco/image/upload/v1779939923/LEOV_surwsc.webp" },
-    { name: "Miles Dyson", role: t('team.role.gp'), image: "https://placehold.co/400x400/111111/39FF14?text=Foto" },
-    { name: "John Smith", role: t('team.role.principal'), image: "https://placehold.co/400x400/111111/39FF14?text=Foto" },
-    { name: "Jane Doe", role: t('team.role.vp'), image: "https://placehold.co/400x400/111111/39FF14?text=Foto" },
+    { name: "Axel Zuko", role: t('team.role.gp'), image: "https://res.cloudinary.com/dk3laapco/image/upload/v1780022865/WhatsApp_Image_2026-05-28_at_01.32.06_jvlo2b.webp" },
+    { name: "Ash P3", role: t('team.role.principal'), image: "https://res.cloudinary.com/dk3laapco/image/upload/v1780022865/Dame_esta_imagen_en_1_1_202605282042_sia4py.webp" },
+    { name: "Omar Gabriel Guevara", role: t('team.role.vp'), image: "https://res.cloudinary.com/dk3laapco/image/upload/v1780024414/WhatsApp_Image_2026-05-28_at_01.41.05_k7eakw.webp" },
   ];
 
   const handleInteraction = (index: number) => {
