@@ -5,7 +5,7 @@ type Language = 'es' | 'en';
 
 const translations = {
   es: {
-    'nav.thesis': 'El Estudio',
+    'nav.thesis': 'Estudio',
     'nav.partners': 'Artistas',
     'nav.team': 'Team',
     'nav.careers': 'Reservas',
@@ -16,7 +16,7 @@ const translations = {
     'hero.title2': 'Tu Sonido',
     'hero.desc': 'Instalaciones y equipos para llevar tu producción musical al más alto nivel.',
     
-    'thesis.title': 'Las Instalaciones',
+    'thesis.title': 'Estudio',
     'thesis.desc': 'Diseñado acústicamente a la perfección. Nuestro estudio combina la calidez del equipo analógico clásico con la precisión digital moderna.',
     'thesis.layer1.title': 'Sala de Control',
     'thesis.layer1.desc': 'Monitoreo de alta fidelidad y consolas premium.',

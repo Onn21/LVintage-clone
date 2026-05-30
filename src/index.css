@@ -59,3 +59,26 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+/* Iridescent Text Effect */
+.text-iridescent {
+  background: linear-gradient(
+    to right,
+    var(--color-neon-purple),
+    var(--color-neon-magenta),
+    var(--color-neon-yellow),
+    var(--color-neon-cyan),
+    var(--color-neon-purple)
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
